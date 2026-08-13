@@ -1,15 +1,122 @@
 [
   {
-    "name": "hello-world",
-    "title": "Hello World",
-    "description": "我的第一个 MixCore 插件",
-    "author": "kongbair",
-    "version": "1.0.1",
+    "name": "mixcore-alarm",
+    "title": "闹钟",
+    "description": "闹钟提醒（内置应用迁移，数据自包含，到点系统通知）",
+    "version": "1.0.0",
+    "icon": "icon.svg",
+    "entry": "dist/index.html",
+    "permissions": [
+      "db",
+      "schedule",
+      "events",
+      "store"
+    ],
+    "path": "mixcore-alarm",
+    "package": "mixcore-alarm-1.0.0.mixplugin",
+    "package_md5": "45a9046b8484201fc5edcc6dde2ad0a8"
+  },
+  {
+    "name": "mixcore-beautifier",
+    "title": "代码美化",
+    "description": "JSON 格式化 / 树视图 / 搜索高亮 / 去重复制（内置应用迁移，自包含）",
+    "version": "1.0.0",
+    "icon": "icon.svg",
+    "entry": "dist/index.html",
+    "permissions": [
+      "db",
+      "store",
+      "clipboard",
+      "file"
+    ],
+    "path": "mixcore-beautifier",
+    "package": "mixcore-beautifier-1.0.0.mixplugin",
+    "package_md5": "a5c22d0a16160d04a19f5873ef464cfe"
+  },
+  {
+    "name": "mixcore-clipboard",
+    "title": "剪切板",
+    "description": "剪切板历史记录与收藏（内置应用迁移）",
+    "version": "1.0.0",
+    "icon": "icon.svg",
+    "entry": "dist/index.html",
+    "permissions": [
+      "clipboard",
+      "events",
+      "store",
+      "db",
+      "window"
+    ],
+    "path": "mixcore-clipboard",
+    "package": "mixcore-clipboard-1.0.0.mixplugin",
+    "package_md5": "ba40cb2007588bfc17fde4b384edf98b"
+  },
+  {
+    "name": "mixcore-git-project",
+    "title": "工作项目",
+    "description": "项目 Git 分支与 GitLab MR 概览（内置应用迁移）",
+    "version": "1.0.0",
+    "icon": "icon.svg",
+    "entry": "dist/index.html",
+    "permissions": [
+      "db",
+      "store",
+      "file",
+      "network",
+      "git",
+      "shell"
+    ],
+    "path": "mixcore-git-project",
+    "package": "mixcore-git-project-1.0.0.mixplugin",
+    "package_md5": "f8b9c155bbb4bcb41785774bde3f98ea"
+  },
+  {
+    "name": "mixcore-quick-link",
+    "title": "快链接",
+    "description": "快捷链接与关键词模板（内置应用迁移，数据自包含）",
+    "version": "1.0.0",
+    "icon": "icon.svg",
+    "entry": "dist/index.html",
+    "permissions": [
+      "db",
+      "store",
+      "shell",
+      "clipboard"
+    ],
+    "path": "mixcore-quick-link",
+    "package": "mixcore-quick-link-1.0.0.mixplugin",
+    "package_md5": "f864f2abe4686e2c1f277b06b711f5fb"
+  },
+  {
+    "name": "mixcore-todo",
+    "title": "待办事项",
+    "description": "简单的本地待办插件",
+    "version": "1.0.0",
     "icon": "icon.svg",
     "entry": "index.html",
-    "permissions": [],
-    "path": "hello-world",
-    "package": "hello-world-1.0.1.mixplugin",
-    "package_md5": "f15a2f49ed2b026f65f7e53a1ab92d09"
+    "permissions": [
+      "db"
+    ],
+    "path": "mixcore-todo",
+    "package": "mixcore-todo-1.0.0.mixplugin",
+    "package_md5": "8b9deb5c536a1ac06d640ca402a8c2e2"
+  },
+  {
+    "name": "mixcore-totp",
+    "title": "身份验证",
+    "description": "TOTP 身份验证码（内置应用迁移，数据自包含）",
+    "version": "1.0.0",
+    "icon": "icon.svg",
+    "entry": "dist/index.html",
+    "permissions": [
+      "db",
+      "store",
+      "events",
+      "clipboard",
+      "window"
+    ],
+    "path": "mixcore-totp",
+    "package": "mixcore-totp-1.0.0.mixplugin",
+    "package_md5": "65d5d75038d47a874c656d2fdb8ea45d"
   }
 ]

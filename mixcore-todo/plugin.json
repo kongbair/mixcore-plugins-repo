@@ -1,0 +1,11 @@
+{
+  "name": "mixcore-todo",
+  "version": "1.0.0",
+  "title": "待办事项",
+  "description": "简单的本地待办插件",
+  "icon": "icon.svg",
+  "entry": "index.html",
+  "window": { "width": 720, "height": 600, "resizable": true },
+  "permissions": ["db"],
+  "data": { "engine": "lmdb" }
+}

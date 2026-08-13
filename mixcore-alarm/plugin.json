@@ -1,0 +1,19 @@
+{
+  "name": "mixcore-alarm",
+  "version": "1.0.0",
+  "title": "闹钟",
+  "description": "闹钟提醒（内置应用迁移，数据自包含，到点系统通知）",
+  "icon": "icon.svg",
+  "entry": "dist/index.html",
+  "devEntry": "http://localhost:5182",
+  "window": {
+    "width": 1000,
+    "height": 700,
+    "resizable": true,
+    "minimizable": true,
+    "maximizable": true
+  },
+  "permissions": ["db", "schedule", "events", "store"],
+  "ui": { "mode": "window" },
+  "data": { "engine": "lmdb" }
+}

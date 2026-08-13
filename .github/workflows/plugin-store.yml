@@ -24,7 +24,7 @@ jobs:
       - name: Install dependency
         run: npm i --no-save adm-zip
       - name: Build plugin store
-        run: node scripts/build-plugin-store.cjs .
+        run: node scripts/build-plugin-store.cjs . --index-only
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
@@ -32,3 +32,4 @@ jobs:
           git add -A
           git diff --cached --quiet || git commit -m "chore: rebuild plugin store [skip ci]"
           git push
+

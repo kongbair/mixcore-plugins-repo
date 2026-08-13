@@ -1,0 +1,19 @@
+{
+  "name": "mixcore-git-project",
+  "version": "1.0.0",
+  "title": "工作项目",
+  "description": "项目 Git 分支与 GitLab MR 概览（内置应用迁移）",
+  "icon": "icon.svg",
+  "entry": "dist/index.html",
+  "devEntry": "http://localhost:5185",
+  "window": {
+    "width": 1200,
+    "height": 760,
+    "resizable": true,
+    "minimizable": true,
+    "maximizable": true
+  },
+  "permissions": ["db", "store", "file", "network", "git", "shell"],
+  "ui": { "mode": "window" },
+  "data": { "engine": "lmdb" }
+}

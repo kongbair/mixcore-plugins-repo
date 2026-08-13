@@ -1,0 +1,19 @@
+{
+  "name": "mixcore-quick-link",
+  "version": "1.0.0",
+  "title": "快链接",
+  "description": "快捷链接与关键词模板（内置应用迁移，数据自包含）",
+  "icon": "icon.svg",
+  "entry": "dist/index.html",
+  "devEntry": "http://localhost:5183",
+  "window": {
+    "width": 1000,
+    "height": 700,
+    "resizable": true,
+    "minimizable": true,
+    "maximizable": true
+  },
+  "permissions": ["db", "store", "shell", "clipboard"],
+  "ui": { "mode": "window" },
+  "data": { "engine": "lmdb" }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "mixcore-clipboard",
+  "version": "1.0.0",
+  "title": "剪切板",
+  "description": "剪切板历史记录与收藏（内置应用迁移）",
+  "icon": "icon.svg",
+  "entry": "dist/index.html",
+  "devEntry": "http://localhost:5180",
+  "window": {
+    "width": 1000,
+    "height": 700,
+    "resizable": true,
+    "minimizable": true,
+    "maximizable": true
+  },
+  "permissions": ["clipboard", "events", "store", "db", "window"],
+  "ui": { "mode": "window" },
+  "data": { "engine": "lmdb" }
+}

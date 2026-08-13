@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7b93ff"/>
+      <stop offset="1" stop-color="#4459e8"/>
+    </linearGradient>
+    <radialGradient id="hl" cx="0.3" cy="0.24" r="0.85">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#bg)"/>
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#hl)"/>
+
+  <rect x="36" y="40" width="14" height="14" rx="4" fill="#ffffff"/>
+  <path d="M40.2 47l3.6 3.6 6.6-7.6" fill="none" stroke="#4459e8" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="36" y="58" width="14" height="14" rx="4" fill="none" stroke="#ffffff" stroke-width="2.6" opacity="0.95"/>
+  <rect x="36" y="76" width="14" height="14" rx="4" fill="none" stroke="#ffffff" stroke-width="2.6" opacity="0.95"/>
+
+  <g stroke="#ffffff" stroke-width="6" stroke-linecap="round">
+    <line x1="60" y1="47" x2="97" y2="47"/>
+    <line x1="60" y1="65" x2="80" y2="65" opacity="0.85"/>
+    <line x1="60" y1="83" x2="71" y2="83" opacity="0.7"/>
+  </g>
+</svg>

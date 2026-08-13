@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="totp-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34C759"/>
+      <stop offset="1" stop-color="#0A84FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#totp-bg)"/>
+  <path d="M64 20s30 14 30 36v22c0 12-30 26-30 26s-30-14-30-26V56c0-22 30-36 30-36z" fill="#ffffff"/>
+  <path d="m52 64 9 9 17-19" stroke="#0A84FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
