@@ -1,0 +1,10 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "title": "Hello World",
+  "description": "我的第一个 MixCore 插件",
+  "author": "kongbair",
+  "entry": "index.html",
+  "window": { "width": 600, "height": 400 },
+  "permissions": []
+}

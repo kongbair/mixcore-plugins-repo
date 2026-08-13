@@ -1,0 +1,34 @@
+# 插件商店发布工作流（GitHub Actions 示例）
+#
+# 复制本文件到「插件仓库」的 .github/workflows/plugin-store.yml 使用：
+# 每次 push 到 main 后自动重新打包各插件并生成 plugins.json。
+# 提交信息中的 [skip ci] 用于避免构建产物提交再次触发本工作流。
+name: build-plugin-store
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install dependency
+        run: npm i --no-save adm-zip
+      - name: Build plugin store
+        run: node scripts/build-plugin-store.cjs .
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: rebuild plugin store [skip ci]"
+          git push
