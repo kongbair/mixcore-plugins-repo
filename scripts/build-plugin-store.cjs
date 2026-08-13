@@ -42,7 +42,7 @@ function collectFiles(dir, rel = '', out = []) {
       if (name === '.git' || name === 'node_modules') continue
       collectFiles(dir, path.join(rel, name), out)
     } else if (entry.isFile()) {
-      if (name.endsWith('.mixplugin') || name === 'store.json') continue
+      if (name.endsWith('.mixplugin') || name.toLowerCase() === 'store.json' || name.toLowerCase() === 'readme.md') continue
       out.push(path.join(rel, name))
     }
   }
@@ -170,4 +170,5 @@ function main() {
 }
 
 main()
+
 
