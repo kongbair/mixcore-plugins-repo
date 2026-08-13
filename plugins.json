@@ -4,11 +4,12 @@
     "title": "Hello World",
     "description": "我的第一个 MixCore 插件",
     "author": "kongbair",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "icon": "icon.svg",
     "entry": "index.html",
     "permissions": [],
     "path": "hello-world",
-    "package": "hello-world-1.0.0.mixplugin",
-    "package_md5": "8e91263f2d337f61a2a6406a16312bfd"
+    "package": "hello-world-1.0.1.mixplugin",
+    "package_md5": "ce7a7bd66e9f0064e43ac7636857d84f"
   }
 ]
