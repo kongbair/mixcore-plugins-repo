@@ -44,7 +44,7 @@ function collectFiles(dir, rel = '', out = []) {
       if (name === '.git' || name === 'node_modules') continue
       collectFiles(dir, path.join(rel, name), out)
     } else if (entry.isFile()) {
-      if (name.endsWith('.mixplugin') || name.toLowerCase() === 'store.json' || name.toLowerCase() === 'readme.md') continue
+      if (name.endsWith('.mixplugin') || name.toLowerCase() === 'store.json' || name.toLowerCase() === 'readme.md' || name.toLowerCase() === 'manual.md') continue
       out.push(path.join(rel, name))
     }
   }
@@ -189,6 +189,7 @@ function main() {
 }
 
 main()
+
 
 
 
