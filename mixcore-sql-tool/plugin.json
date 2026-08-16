@@ -1,0 +1,12 @@
+{
+  "name": "mixcore-sql-tool",
+  "version": "1.0.0",
+  "title": "SQL 格式化器",
+  "description": "SQL 语法高亮与格式化：关键字大写、缩进换行、压缩、多方言，纯本地离线",
+  "icon": "icon.svg",
+  "entry": "dist/index.html",
+  "devEntry": "http://localhost:5173",
+  "window": { "width": 1120, "height": 780, "resizable": true, "minimizable": true, "maximizable": true },
+  "permissions": ["store", "clipboard"],
+  "ui": { "mode": "window" }
+}

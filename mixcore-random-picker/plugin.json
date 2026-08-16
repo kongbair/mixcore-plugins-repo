@@ -1,0 +1,14 @@
+{
+  "name": "mixcore-random-picker",
+  "version": "1.0.0",
+  "title": "随机摇",
+  "description": "录入数据集（人名、数字、任意条目），从指定数据集中随机抽取指定数量结果，卡片式摇取过程",
+  "icon": "icon.svg",
+  "entry": "dist/index.html",
+  "devEntry": "http://localhost:5175",
+  "window": { "width": 960, "height": 720, "resizable": true, "minimizable": true, "maximizable": true },
+  "permissions": ["db", "store"],
+  "ui": { "mode": "window" },
+  "data": { "engine": "lmdb" }
+}
+

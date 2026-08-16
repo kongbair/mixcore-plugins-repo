@@ -1,0 +1,12 @@
+{
+  "name": "mixcore-cron",
+  "version": "1.0.0",
+  "title": "cron校验器",
+  "description": "纯前端 cron 表达式校验与运行时间预览工具",
+  "icon": "icon.svg",
+  "entry": "dist/index.html",
+  "devEntry": "http://localhost:5173",
+  "window": { "width": 900, "height": 700, "resizable": true },
+  "permissions": [],
+  "data": { "engine": "lmdb" }
+}

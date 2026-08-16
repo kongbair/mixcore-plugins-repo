@@ -1,0 +1,12 @@
+{
+  "name": "mixcore-regex-tester",
+  "version": "1.0.0",
+  "title": "正则测试器",
+  "description": "正则表达式实时测试：匹配高亮、分组可视化、常用表达式库，纯本地离线",
+  "icon": "icon.svg",
+  "entry": "dist/index.html",
+  "devEntry": "http://localhost:5173",
+  "window": { "width": 1120, "height": 780, "resizable": true, "minimizable": true, "maximizable": true },
+  "permissions": ["store", "clipboard"],
+  "ui": { "mode": "window" }
+}

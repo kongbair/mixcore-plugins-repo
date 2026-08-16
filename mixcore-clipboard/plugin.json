@@ -1,6 +1,6 @@
 {
   "name": "mixcore-clipboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "剪切板",
   "description": "剪切板历史记录与收藏（内置应用迁移）",
   "icon": "icon.svg",
