@@ -14,7 +14,7 @@
     ],
     "path": "mixcore-alarm",
     "package": "mixcore-alarm-1.0.0.mixplugin",
-    "package_md5": "45a9046b8484201fc5edcc6dde2ad0a8"
+    "package_md5": "62b528f5a8b765225af44581108ac5be"
   },
   {
     "name": "mixcore-beautifier",
@@ -31,13 +31,13 @@
     ],
     "path": "mixcore-beautifier",
     "package": "mixcore-beautifier-1.0.0.mixplugin",
-    "package_md5": "a5c22d0a16160d04a19f5873ef464cfe"
+    "package_md5": "af85b15d00671206fb64e7ff05ad7d08"
   },
   {
     "name": "mixcore-clipboard",
     "title": "剪切板",
     "description": "剪切板历史记录与收藏（内置应用迁移）",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icon": "icon.svg",
     "entry": "dist/index.html",
     "permissions": [
@@ -48,8 +48,35 @@
       "window"
     ],
     "path": "mixcore-clipboard",
-    "package": "mixcore-clipboard-1.0.0.mixplugin",
-    "package_md5": "ba40cb2007588bfc17fde4b384edf98b"
+    "package": "mixcore-clipboard-1.0.1.mixplugin",
+    "package_md5": "a7aa16cd9c3c4056b13b30eaf4615fdc"
+  },
+  {
+    "name": "mixcore-codec-toolbox",
+    "title": "编解码工具箱",
+    "description": "Base64 / URL / JWT / Hash / 时间戳互转，纯本地离线工具",
+    "version": "1.0.0",
+    "icon": "icon.svg",
+    "entry": "dist/index.html",
+    "permissions": [
+      "store",
+      "clipboard"
+    ],
+    "path": "mixcore-codec-toolbox",
+    "package": "mixcore-codec-toolbox-1.0.0.mixplugin",
+    "package_md5": "9763bb6634d1b679e4e3c741a2796362"
+  },
+  {
+    "name": "mixcore-cron",
+    "title": "cron校验器",
+    "description": "纯前端 cron 表达式校验与运行时间预览工具",
+    "version": "1.0.0",
+    "icon": "icon.svg",
+    "entry": "dist/index.html",
+    "permissions": [],
+    "path": "mixcore-cron",
+    "package": "mixcore-cron-1.0.0.mixplugin",
+    "package_md5": "efcf1f8b9d97f0d462a15a1e3c0a309a"
   },
   {
     "name": "mixcore-git-project",
@@ -68,7 +95,25 @@
     ],
     "path": "mixcore-git-project",
     "package": "mixcore-git-project-1.0.0.mixplugin",
-    "package_md5": "f8b9c155bbb4bcb41785774bde3f98ea"
+    "package_md5": "c2d88ffc5173e9402485b36e7969fead"
+  },
+  {
+    "name": "mixcore-pomodoro",
+    "title": "番茄钟",
+    "description": "番茄工作法计时器：专注/短休/长休、自定义时长、系统通知、每日统计",
+    "version": "1.0.0",
+    "icon": "icon.svg",
+    "entry": "dist/index.html",
+    "permissions": [
+      "db",
+      "store",
+      "notify",
+      "window",
+      "events"
+    ],
+    "path": "mixcore-pomodoro",
+    "package": "mixcore-pomodoro-1.0.0.mixplugin",
+    "package_md5": "0e5b6f16ffe650d2cb51fd57aa155adf"
   },
   {
     "name": "mixcore-quick-link",
@@ -85,7 +130,52 @@
     ],
     "path": "mixcore-quick-link",
     "package": "mixcore-quick-link-1.0.0.mixplugin",
-    "package_md5": "f864f2abe4686e2c1f277b06b711f5fb"
+    "package_md5": "94aa312a4a929e646385bb9e728e389a"
+  },
+  {
+    "name": "mixcore-random-picker",
+    "title": "随机摇",
+    "description": "录入数据集（人名、数字、任意条目），从指定数据集中随机抽取指定数量结果，卡片式摇取过程",
+    "version": "1.0.0",
+    "icon": "icon.svg",
+    "entry": "dist/index.html",
+    "permissions": [
+      "db",
+      "store"
+    ],
+    "path": "mixcore-random-picker",
+    "package": "mixcore-random-picker-1.0.0.mixplugin",
+    "package_md5": "1802ce3d8915050df7158b20dec21caf"
+  },
+  {
+    "name": "mixcore-regex-tester",
+    "title": "正则测试器",
+    "description": "正则表达式实时测试：匹配高亮、分组可视化、常用表达式库，纯本地离线",
+    "version": "1.0.0",
+    "icon": "icon.svg",
+    "entry": "dist/index.html",
+    "permissions": [
+      "store",
+      "clipboard"
+    ],
+    "path": "mixcore-regex-tester",
+    "package": "mixcore-regex-tester-1.0.0.mixplugin",
+    "package_md5": "5c70f554d17574fc4db2a59e734798a0"
+  },
+  {
+    "name": "mixcore-sql-tool",
+    "title": "SQL 格式化器",
+    "description": "SQL 语法高亮与格式化：关键字大写、缩进换行、压缩、多方言，纯本地离线",
+    "version": "1.0.0",
+    "icon": "icon.svg",
+    "entry": "dist/index.html",
+    "permissions": [
+      "store",
+      "clipboard"
+    ],
+    "path": "mixcore-sql-tool",
+    "package": "mixcore-sql-tool-1.0.0.mixplugin",
+    "package_md5": "9787df0930378e6c171f53373e8bd3fb"
   },
   {
     "name": "mixcore-todo",
@@ -99,7 +189,7 @@
     ],
     "path": "mixcore-todo",
     "package": "mixcore-todo-1.0.0.mixplugin",
-    "package_md5": "8b9deb5c536a1ac06d640ca402a8c2e2"
+    "package_md5": "0a01d6a6bd2d48d5ecbc424a80109bd5"
   },
   {
     "name": "mixcore-totp",
@@ -117,6 +207,6 @@
     ],
     "path": "mixcore-totp",
     "package": "mixcore-totp-1.0.0.mixplugin",
-    "package_md5": "65d5d75038d47a874c656d2fdb8ea45d"
+    "package_md5": "c6dabdb29152ad84827cc9185d08c348"
   }
 ]
