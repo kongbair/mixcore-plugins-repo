@@ -178,6 +178,20 @@
     "package_md5": "9787df0930378e6c171f53373e8bd3fb"
   },
   {
+    "name": "mixcore-tetris",
+    "title": "俄罗斯方块",
+    "description": "经典俄罗斯方块：标准玩法、手柄/键盘双控制、最高分记录、明暗主题",
+    "version": "1.0.0",
+    "icon": "icon.svg",
+    "entry": "dist/index.html",
+    "permissions": [
+      "store"
+    ],
+    "path": "mixcore-tetris",
+    "package": "mixcore-tetris-1.0.0.mixplugin",
+    "package_md5": "b6117f97c288fa4627c78063b326506b"
+  },
+  {
     "name": "mixcore-todo",
     "title": "待办事项",
     "description": "简单的本地待办插件",
