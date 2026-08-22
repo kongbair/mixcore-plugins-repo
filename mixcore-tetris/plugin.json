@@ -1,0 +1,12 @@
+{
+  "name": "mixcore-tetris",
+  "version": "1.0.0",
+  "title": "俄罗斯方块",
+  "description": "经典俄罗斯方块：标准玩法、手柄/键盘双控制、最高分记录、明暗主题",
+  "icon": "icon.svg",
+  "entry": "dist/index.html",
+  "devEntry": "http://localhost:5173",
+  "window": { "width": 480, "height": 780, "resizable": true, "minimizable": true, "maximizable": true },
+  "permissions": ["store"],
+  "ui": { "mode": "window" }
+}
