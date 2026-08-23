@@ -116,6 +116,20 @@
     "package_md5": "0e5b6f16ffe650d2cb51fd57aa155adf"
   },
   {
+    "name": "mixcore-python-traceback",
+    "title": "Traceback 分析器",
+    "description": "解析 Python Traceback，按栈帧展示文件、行号、函数、源码与最终异常",
+    "version": "1.0.0",
+    "icon": "icon.svg",
+    "entry": "dist/index.html",
+    "permissions": [
+      "store"
+    ],
+    "path": "mixcore-python-traceback",
+    "package": "mixcore-python-traceback-1.0.0.mixplugin",
+    "package_md5": "e46f71593f4a8ce32e082134e15750ea"
+  },
+  {
     "name": "mixcore-quick-link",
     "title": "快链接",
     "description": "快捷链接与关键词模板（内置应用迁移，数据自包含）",
@@ -161,6 +175,20 @@
     "path": "mixcore-regex-tester",
     "package": "mixcore-regex-tester-1.0.0.mixplugin",
     "package_md5": "5c70f554d17574fc4db2a59e734798a0"
+  },
+  {
+    "name": "mixcore-snake",
+    "title": "贪吃蛇",
+    "description": "双人贪吃蛇：键盘/手柄双控制、同屏竞技、最高分记录、明暗主题",
+    "version": "1.0.0",
+    "icon": "icon.svg",
+    "entry": "dist/index.html",
+    "permissions": [
+      "store"
+    ],
+    "path": "mixcore-snake",
+    "package": "mixcore-snake-1.0.0.mixplugin",
+    "package_md5": "fb372cb6300eb1934bde62815d48f15b"
   },
   {
     "name": "mixcore-sql-tool",
