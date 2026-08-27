@@ -51,7 +51,7 @@
 
 ## 安装
 
-在 MixCore「插件中心 → 导入插件」选择 `mixcore-snake-1.0.0.mixplugin`。
+在 MixCore「插件中心 → 导入插件」选择 `mixcore-snake-1.1.0.mixplugin`。
 
 
 

@@ -63,4 +63,4 @@
 
 ## 安装
 
-在 MixCore「插件中心 → 导入插件」选择 `mixcore-tetris-1.0.0.mixplugin`。
+在 MixCore「插件中心 → 导入插件」选择 `mixcore-tetris-1.3.0.mixplugin`。

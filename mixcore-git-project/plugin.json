@@ -1,6 +1,6 @@
 {
   "name": "mixcore-git-project",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "title": "工作项目",
   "description": "项目 Git 分支与 GitLab MR 概览（内置应用迁移）",
   "author": "dilong",

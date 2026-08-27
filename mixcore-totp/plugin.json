@@ -1,6 +1,6 @@
 {
   "name": "mixcore-totp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "title": "身份验证",
   "description": "TOTP 身份验证码（内置应用迁移，数据自包含）",
   "author": "dilong",

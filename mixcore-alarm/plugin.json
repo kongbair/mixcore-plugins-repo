@@ -1,6 +1,6 @@
 {
   "name": "mixcore-alarm",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "title": "闹钟",
   "description": "闹钟提醒（内置应用迁移，数据自包含，到点系统通知）",
   "author": "dilong",
