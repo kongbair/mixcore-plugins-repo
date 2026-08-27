@@ -20,7 +20,7 @@
     "name": "mixcore-beautifier",
     "title": "代码美化",
     "description": "JSON 格式化 / 树视图 / 搜索高亮 / 去重复制（内置应用迁移，自包含）",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "icon": "icon.svg",
     "entry": "dist/index.html",
     "permissions": [
@@ -30,8 +30,8 @@
       "file"
     ],
     "path": "mixcore-beautifier",
-    "package": "mixcore-beautifier-1.0.0.mixplugin",
-    "package_md5": "af85b15d00671206fb64e7ff05ad7d08"
+    "package": "mixcore-beautifier-1.1.0.mixplugin",
+    "package_md5": "3f790252e01c4928e9e2725860152483"
   },
   {
     "name": "mixcore-clipboard",
@@ -82,7 +82,7 @@
     "name": "mixcore-git-project",
     "title": "工作项目",
     "description": "项目 Git 分支与 GitLab MR 概览（内置应用迁移）",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "icon": "icon.svg",
     "entry": "dist/index.html",
     "permissions": [
@@ -91,11 +91,12 @@
       "file",
       "network",
       "git",
-      "shell"
+      "shell",
+      "clipboard"
     ],
     "path": "mixcore-git-project",
-    "package": "mixcore-git-project-1.0.0.mixplugin",
-    "package_md5": "c2d88ffc5173e9402485b36e7969fead"
+    "package": "mixcore-git-project-1.1.0.mixplugin",
+    "package_md5": "0dacac0463edbbf73325fd2c04aea226"
   },
   {
     "name": "mixcore-pomodoro",
@@ -150,7 +151,7 @@
     "name": "mixcore-random-picker",
     "title": "随机摇",
     "description": "录入数据集（人名、数字、任意条目），从指定数据集中随机抽取指定数量结果，卡片式摇取过程",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "icon": "icon.svg",
     "entry": "dist/index.html",
     "permissions": [
@@ -158,8 +159,8 @@
       "store"
     ],
     "path": "mixcore-random-picker",
-    "package": "mixcore-random-picker-1.0.0.mixplugin",
-    "package_md5": "1802ce3d8915050df7158b20dec21caf"
+    "package": "mixcore-random-picker-1.1.0.mixplugin",
+    "package_md5": "23d97fde8ce96ede290ecb48da3335af"
   },
   {
     "name": "mixcore-regex-tester",
