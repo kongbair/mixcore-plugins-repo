@@ -210,15 +210,15 @@
     "name": "mixcore-tetris",
     "title": "俄罗斯方块",
     "description": "经典俄罗斯方块：标准玩法、手柄/键盘双控制、玩家最高分与积分历史统计",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "icon": "icon.svg",
     "entry": "dist/index.html",
     "permissions": [
       "store"
     ],
     "path": "mixcore-tetris",
-    "package": "mixcore-tetris-1.1.1.mixplugin",
-    "package_md5": "fdecbe5b11b53baefd154b0dc2330033"
+    "package": "mixcore-tetris-1.2.0.mixplugin",
+    "package_md5": "64e3f03c0bcdcd77bf1379cdb2ac6ff9"
   },
   {
     "name": "mixcore-todo",
