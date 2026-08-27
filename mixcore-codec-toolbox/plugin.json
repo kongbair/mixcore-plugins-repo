@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "title": "编解码工具箱",
   "description": "Base64 / URL / JWT / Hash / 时间戳互转，纯本地离线工具",
+  "author": "dilong",
   "icon": "icon.svg",
   "entry": "dist/index.html",
   "devEntry": "http://localhost:5173",

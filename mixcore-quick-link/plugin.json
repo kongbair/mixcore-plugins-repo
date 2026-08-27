@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "title": "快链接",
   "description": "快捷链接与关键词模板（内置应用迁移，数据自包含）",
+  "author": "dilong",
   "icon": "icon.svg",
   "entry": "dist/index.html",
   "devEntry": "http://localhost:5183",

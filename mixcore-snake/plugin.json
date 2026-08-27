@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "title": "贪吃蛇",
   "description": "双人贪吃蛇：键盘/手柄双控制、同屏竞技、最高分记录、明暗主题",
+  "author": "dilong",
   "icon": "icon.svg",
   "entry": "dist/index.html",
   "devEntry": "http://localhost:5173",

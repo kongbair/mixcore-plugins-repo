@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "title": "Traceback 分析器",
   "description": "解析 Python Traceback，按栈帧展示文件、行号、函数、源码与最终异常",
+  "author": "dilong",
   "icon": "icon.svg",
   "entry": "dist/index.html",
   "devEntry": "http://localhost:5186",

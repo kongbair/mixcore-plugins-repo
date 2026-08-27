@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "title": "剪切板",
   "description": "剪切板历史记录与收藏（内置应用迁移）",
+  "author": "dilong",
   "icon": "icon.svg",
   "entry": "dist/index.html",
   "devEntry": "http://localhost:5180",

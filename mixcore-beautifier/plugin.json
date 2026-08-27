@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "title": "代码美化",
   "description": "JSON 格式化 / 树视图 / 搜索高亮 / 去重复制（内置应用迁移，自包含）",
+  "author": "dilong",
   "icon": "icon.svg",
   "entry": "dist/index.html",
   "devEntry": "http://localhost:5184",
