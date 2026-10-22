@@ -88,7 +88,7 @@
     "title": "工作项目",
     "description": "项目 Git 分支与 GitLab MR 概览（内置应用迁移）",
     "author": "dilong",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "icon": "icon.svg",
     "entry": "dist/index.html",
     "permissions": [
@@ -101,8 +101,8 @@
       "clipboard"
     ],
     "path": "mixcore-git-project",
-    "package": "mixcore-git-project-1.2.0.mixplugin",
-    "package_md5": "481777bc823de4b110fc1eb32ee9371f"
+    "package": "mixcore-git-project-1.2.1.mixplugin",
+    "package_md5": "ee57e0639877efad6421059c568deb16"
   },
   {
     "name": "mixcore-pomodoro",
