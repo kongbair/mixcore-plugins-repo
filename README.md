@@ -1,6 +1,6 @@
-# MixCore 插件商店
+# MixCore 发布插件商店
 
-MixCore 插件商店的公开插件仓库。商店客户端从本仓库根目录 `plugins.json` 读取插件列表并下载安装包。
+MixCore 插件商店的公开发布仓库。客户端从本仓库根目录 `plugins.json` 读取插件列表并下载安装包。
 
 ## 仓库结构
 
@@ -15,15 +15,9 @@ MixCore 插件商店的公开插件仓库。商店客户端从本仓库根目录
 
 仓库根目录的 `plugins.json` 为商店索引，由 `scripts/build-plugin-store.cjs` 自动生成。
 
-## 添加 / 更新插件
+ ```bash
+ node scripts/build-plugin-store.cjs . --index-only
+ ```
 
-1. 在 MixCore 主仓库 `plugins/<name>/` 中开发并构建；
-2. 将 `plugin.json`、`icon.svg`、`<name>-<version>.mixplugin` 复制到本仓库对应目录；
-3. 本地重新生成索引：
-
-   ```bash
-   node scripts/build-plugin-store.cjs . --index-only
-   ```
-
-4. 提交并推送 `main` 分支，GitHub Actions 会自动重新生成索引（日常无需手动执行第 3 步）。
+提交并推送 `main` 分支，GitHub Actions 会自动重新生成索引。
 
